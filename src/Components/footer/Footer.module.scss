@@ -1,0 +1,123 @@
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: 10rem;
+    padding: 0 10rem;
+    gap: 2rem;
+    margin-bottom: 0%;
+    height: 45vh;
+    background-color: var(--dark-blue);
+}
+.content1{
+    display: block;
+}
+.content1 p{
+    color: var(--color-grey);
+}
+
+.content1 h4{ 
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-grey);
+    font-family: 'Poppins', sans-serif;
+}
+.content2{
+    display: block;
+  
+}
+.content2 h4{
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--color-grey);
+    font-family: 'Poppins', sans-serif;
+}
+.content2 h5{
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-grey);
+}
+.content2 h5:hover{
+    color: orangered;
+}
+.content3 h4{
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--color-grey);
+    font-family: 'Poppins', sans-serif;
+}
+.content3 p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-grey);
+}
+.p-2{
+    margin-top: 1rem;
+}
+.payment{  
+    width: 12rem;
+    margin-top: .5rem;
+}
+.payment-img{
+    margin-top: 1rem;
+}
+
+.copy-right{
+    display: grid;
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-grey);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.social-icon{
+    margin-top: -1rem;
+}
+
+.social-icon > *{
+    padding:  0 1rem 0 0;
+    font-size: 2.5rem;
+    cursor: pointer; 
+    color: var(--color-grey);
+}
+.social-icon > *:hover{
+    color: orangered;
+}
+// Media Queries
+@media screen and (max-width:800px) {
+    .footer{
+        grid-template-columns: 2fr 1fr 1fr;
+        margin-top: 10rem;
+        padding: 0 1rem ;
+        gap: 1rem;
+        margin-bottom: 0%;
+        height: 40vh;
+    }
+    .content2{
+        margin-left: 1rem;
+    }
+    .content1 p{
+        font-size: .8rem;
+    }
+    .social-icon{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .payment-img{
+        width: 12rem;
+        margin-top: 1rem;
+    }
+    .copy-right{
+        display: grid;
+        grid-column: 1/4;
+        width: 100%;
+    }
+}
+
+  
